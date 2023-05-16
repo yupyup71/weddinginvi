@@ -1,8 +1,9 @@
 body{
   color: black;
-  background: rgba(255, 255, 248, 0.636);
+  background: rgba(241, 241, 236, 0.636);
 }
 
-main, section{
-  height: 100vp;
+html, body, main, section{
+  height: 100%;
+  margin: 0px;
 }
