@@ -1,11 +1,15 @@
+import { Weddingdate } from '@/components/date'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Link href='test'>click me daddy</Link>
+    <main>
+      <Weddingdate yearDate='2024年' monthDate='3月' dayDate='30日'></Weddingdate>
     </main>
   )
+
+
+
 }
