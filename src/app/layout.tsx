@@ -1,11 +1,15 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Noto_Serif_KR} from 'next/font/google'
+import 'next/head'
+import 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Noto_Serif_KR (
+  { weight: '300',
+    subsets: ['latin'] })
 
 export const metadata = {
   title: 'Wedding Invitation',
-  description: 'made by Yubeen and Tormod',
+  description: 'made by Yubeen and Tormod'
 }
 
 export default function RootLayout({
@@ -15,7 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /></head>
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
+
+
