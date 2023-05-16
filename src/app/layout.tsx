@@ -1,5 +1,5 @@
 import './globals.css'
-import { Noto_Serif_KR} from 'next/font/google'
+import { Noto_Serif_KR } from 'next/font/google'
 import 'next/head'
 import 'next/link'
 
