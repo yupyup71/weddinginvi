@@ -3,7 +3,14 @@ body{
   background: rgba(241, 241, 236, 0.636);
 }
 
-html, body, main, section{
+html, body, main{
   height: 100%;
   margin: 0px;
+  scroll-snap-type: y mandatory;
+}
+
+section{
+  height: 100%;
+  margin: 0px;
+  scroll-snap-align: start;
 }
