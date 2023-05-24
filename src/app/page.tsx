@@ -2,16 +2,9 @@ import { Coverphoto } from "@/components/coverphoto";
 import { Weddingdate } from "@/components/date";
 import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
-import { ImageGallery } from "react-image-gallery";
+import Gallery from "@/components/gallery";
 
 export default function Home() {
-  const images = [
-    {
-      original: "/KakaoTalk_2.jpg",
-      thumbnail: "/KakaoTalk_2.jpg",
-    },
-  ];
-
   return (
     <main>
       <section
@@ -47,7 +40,7 @@ export default function Home() {
         ></Secondtexts>
       </section>
       <section>
-        <ImageGallery items={images} />
+        <Gallery />
       </section>
     </main>
   );
