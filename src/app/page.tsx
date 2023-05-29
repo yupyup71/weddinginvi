@@ -4,6 +4,7 @@ import { Weddingdate } from "@/components/date";
 import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
 import {Gallery} from '@/components/gallery';
+import { Contactinfo } from "@/components/contactinfo";
 
 export default function Home() {
   return (
@@ -43,6 +44,10 @@ export default function Home() {
       <section>
         <Gallery />
       </section>
+      <section>
+        <Contactinfo 
+        contacts="http://qr.kakao.com/talk/YH7WewYIsstF0iniHA0EmoQvwT4-"/>
+        </section>     
     </main>
   );
 }
