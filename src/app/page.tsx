@@ -1,8 +1,9 @@
+'use client';
 import { Coverphoto } from "@/components/coverphoto";
 import { Weddingdate } from "@/components/date";
 import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
-import Gallery from "@/components/gallery";
+import {Gallery} from '@/components/gallery';
 
 export default function Home() {
   return (
