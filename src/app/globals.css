@@ -1,15 +1,19 @@
-body{
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+body {
   color: black;
-  background: rgba(241, 241, 236, 0.636);
+  background: rgba(227, 227, 212, 0.636);
 }
 
-html, body, main{
+html,
+body,
+main {
   height: 100%;
   margin: 0px;
   scroll-snap-type: y mandatory;
 }
 
-section{
+section {
   height: 100%;
   margin: 0px;
   scroll-snap-align: start;

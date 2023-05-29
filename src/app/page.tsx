@@ -1,9 +1,9 @@
+'use client';
 import { Coverphoto } from "@/components/coverphoto";
 import { Weddingdate } from "@/components/date";
 import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
-import { useRouter } from "next/router";
-import { KakaoMapLocation } from "@/components/KakaoMapLocation";
+import {Gallery} from '@/components/gallery';
 
 export default function Home() {
   return (
@@ -41,7 +41,7 @@ export default function Home() {
         ></Secondtexts>
       </section>
       <section>
-        <KakaoMapLocation />
+        <Gallery />
       </section>
     </main>
   );
