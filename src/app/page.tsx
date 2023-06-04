@@ -1,9 +1,10 @@
-'use client';
+"use client";
 import { Coverphoto } from "@/components/coverphoto";
 import { Weddingdate } from "@/components/date";
 import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
-import {Gallery} from '@/components/gallery';
+import { Gallery } from "@/components/gallery";
+import { KakaoMapLocation } from "@/components/KakaoMapLocation";
 
 export default function Home() {
   return (
@@ -40,8 +41,11 @@ export default function Home() {
           nameus4="이유빈"
         ></Secondtexts>
       </section>
-      <section>
+      <section style={{ padding: 50 }}>
         <Gallery />
+      </section>
+      <section>
+        <KakaoMapLocation />
       </section>
     </main>
   );
