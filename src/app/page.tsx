@@ -5,6 +5,8 @@ import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
 import { Gallery } from "@/components/gallery";
 import { KakaoMapLocation } from "@/components/KakaoMapLocation";
+import { MyApp } from "@/components/calendar";
+import { Kakao } from "@/components/kakaomapretry";
 
 export default function Home() {
   return (
@@ -41,11 +43,17 @@ export default function Home() {
           nameus4="이유빈"
         ></Secondtexts>
       </section>
+      <section>
+        <MyApp />
+      </section>
       <section style={{ padding: 50 }}>
         <Gallery />
       </section>
       <section>
         <KakaoMapLocation />
+      </section>
+      <section>
+        <Kakao />
       </section>
     </main>
   );

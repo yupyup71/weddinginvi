@@ -1,4 +1,3 @@
-import parseHTML from "html-react-parser";
 export function KakaoMapLocation() {
   return (
     <div
